@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mindgrand - Real Estate HTML Template</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+
+    <!-- search popup start-->
+    <div class="body-overlay" id="body-overlay"></div>
+    <div class="td-search-popup" id="td-search-popup">
+        <form action="index.html" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- search popup end-->
+
+    <!-- navbar start -->
+    <div class="navbar-area navbar-area-3">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <button class="menu toggle-btn d-block d-lg-none" data-target="#dkt_main_menu" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
+                </div>
+                <div class="nav-right-part nav-right-part-mobile">
+                    <a class="btn btn-base" href="add-property.html">Submit</a>
+                </div>
+                <div class="collapse navbar-collapse" id="dkt_main_menu">
+                    <ul class="navbar-nav menu-open text-center">
+                        <li class="menu-item-has-children current-menu-item">
+                            <a href="#">Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html">Home 01</a></li>
+                                <li><a href="index-2.html">Home 02</a></li>
+                                <li><a href="index-3.html">Home 03</a></li>
+                                <li><a href="index-4.html">Home 04</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children current-menu-item">
+                            <a href="#">Property</a>
+                            <ul class="sub-menu">
+                                <li><a href="property.html">Property</a></li>
+                                <li><a href="property-grid.html">Property Grid</a></li>
+                                <li><a href="property-left-sidebar.html">Left Sidebar</a></li>
+                                <li><a href="property-details.html">Property Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children current-menu-item">
+                            <a href="#">Pages</a>
+                            <ul class="sub-menu">
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="signin.html">Sign In</a></li>
+                                <li><a href="signup.html">Sign Up</a></li>
+                                <li><a href="add-property.html">Add Property</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children current-menu-item">
+                            <a href="#">Blog</a>
+                            <ul class="sub-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-grid.html">Blog Grid</a></li>
+                                <li><a href="blog-left-sidebar.html">Left Sidebar</a></li>
+                                <li><a href="blog-details.html">Blog Details</a></li>
+                                <li><a href="blog-details-left-sidebar.html">Details Left Sidebar</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right-part nav-right-part-desktop">
+                    <ul>
+                        <li><a class="search" href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a class="btn btn-base" href="add-property.html">Submit <i class="fa fa-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+    
+    <!-- banner start -->
+    <div class="banner-area banner-area-3 banner-area-bg" style="background: url(assets/img/banner/3.png);">
+        <div class="main-search-area">
+            <div class="container">
+                <form class="main-search-inner">
+                    <div class="row custom-gutters-10">
+                        <div class="col-lg-5 col-sm-6">
+                            <div class="single-input-inner">
+                                <input type="text" placeholder="Enter keyword, location, or property name...">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="single-check-inner bg-white text-center">
+                                <label>
+                                    <input value="1"  name="cl-one" type="radio">
+                                    <span>Rent</span>
+                                </label>
+                                <label>
+                                    <input value="1"  name="cl-one" type="radio">
+                                    <span>Buy</span>
+                                </label>
+                                <label>
+                                    <input value="1"  name="cl-one" type="radio">
+                                    <span>Sold</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6 mt-lg-0 mt-md-2 mt-2">
+                            <div class="single-select-inner">
+                                <select>
+                                    <option>Property Type</option>
+                                    <option value="1">Apartment</option>
+                                    <option value="2">Villa</option>
+                                    <option value="3">Townhouse</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6 mt-lg-0 mt-md-2 mt-0">
+                            <a class="btn btn-white-border w-100" href="#"><i class="fa fa-search mr-1"></i> Search</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="banner-slider owl-carousel">
+                <div class="item">
+                    <div class="banner-area-inner">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="banner-inner text-center">
+                                    <p>Find the ultimate luxury living experience in the heart of the city.</p>
+                                    <div class="line"></div>
+                                    <h2>The Best Way To Find Your Perfect Home</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-meta-inner">
+                        <h4>Modern Apartment In <br> The City Center</h4>
+                        <img src="assets/img/icon/location.png" alt="img">
+                        <span>Manhattan, New York</span>
+                        <div class="btn btn-blue">$ 350,000.00</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner-area-inner">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="banner-inner text-center">
+                                    <p>Explore exclusive properties tailored to your elite lifestyle.</p>
+                                    <div class="line"></div>
+                                    <h2>Luxury Villas & Family Residences</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-meta-inner">
+                        <h4>Luxury Villa With <br> Private Pool</h4>
+                        <img src="assets/img/icon/location.png" alt="img">
+                        <span>Long Island, New York</span>
+                        <div class="btn btn-blue">$ 850,000.00</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner-area-inner">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="banner-inner text-center">
+                                    <p>Your trusted partner in navigating the prime real estate market.</p>
+                                    <div class="line"></div>
+                                    <h2>Exceptional Properties For Modern Living</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-meta-inner">
+                        <h4>Executive Penthouse <br> Waterfront View</h4>
+                        <img src="assets/img/icon/location.png" alt="img">
+                        <span>Brooklyn, New York</span>
+                        <div class="btn btn-blue">$ 620,000.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- about area start -->
+    <div class="about-area bg-gray pd-top-120 pd-bottom-120">
+        <div class="container">
+            <div class="single-about-inner about-line-right bg-white">
+                <div class="row no-gutter">
+                    <div class="col-lg-4 order-lg-12">
+                        <div class="thumb" style="background: url(assets/img/other/2.png);"></div>
+                    </div>
+                    <div class="col-lg-8 order-lg-1">
+                        <div class="details">
+                            <div class="section-title mb-4">
+                                <h6>We are offering the best real estate</h6>
+                                <h2>The Experts in Local Real Estate.</h2>
+                                <p>With years of dedicated market experience in New York, we help families, investors, and businesses find properties that truly match their vision and budget. From modern apartments to luxury estates, our team guides you through every step with complete transparency.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="single-list-inner">
+                                        <li>Verified Prime Locations</li>
+                                        <li>Transparent Legal Documentation</li>
+                                        <li>Dedicated Property Consultants</li>
+                                        <li>Flexible Financing Guidance</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="single-list-inner">
+                                        <li>Smart Home Ready Listings</li>
+                                        <li>24/7 Client Support Team</li>
+                                        <li>Accurate Market Valuations</li>
+                                    </ul>
+                                </div>
+                            </div>  
+                            <a class="btn btn-base" href="about.html">SEE MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about area end -->
+
+    <!-- product area start -->
+    <div class="product-area pd-top-118 pd-bottom-120">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6>We are offering the best real estate</h6>
+                <h2>Best Houses For You</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-product-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/project/8.png" alt="img">
+                            <div class="btn-area">
+                                <a class="btn btn-base btn-sm" href="#">BUY</a>
+                                <a class="btn btn-base btn-sm" href="#">RENT</a>
+                            </div>
+                        </div>
+                        <div class="product-wrap-details">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5><a href="property-details.html">$ 450,000.00</a></h5>
+                                    <p>Modern Duplex Villa, Manhattan</p>
+                                </div>
+                                <a class="fav-btn float-right" href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-product-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/project/4.png" alt="img">
+                            <div class="btn-area">
+                                <a class="btn btn-base btn-sm" href="#">BUY</a>
+                                <a class="btn btn-base btn-sm" href="#">RENT</a>
+                            </div>
+                        </div>
+                        <div class="product-wrap-details">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5><a href="property-details.html">$ 380,000.00</a></h5>
+                                    <p>Luxury Family Residence, Brooklyn</p>
+                                </div>
+                                <a class="fav-btn float-right" href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-product-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/project/7.png" alt="img">
+                            <div class="btn-area">
+                                <a class="btn btn-base btn-sm" href="#">BUY</a>
+                                <a class="btn btn-base btn-sm" href="#">RENT</a>
+                            </div>
+                        </div>
+                        <div class="product-wrap-details">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5><a href="property-details.html">$ 295,000.00</a></h5>
+                                    <p><img src="assets/img/icon/location-alt.png" alt="img">Queens, New York</p>
+                                </div>
+                                <a class="fav-btn float-right" href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-product-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/project/5.png" alt="img">
+                            <div class="btn-area">
+                                <a class="btn btn-base btn-sm" href="#">BUY</a>
+                                <a class="btn btn-base btn-sm" href="#">RENT</a>
+                            </div>
+                        </div>
+                        <div class="product-wrap-details">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5><a href="property-details.html">$ 520,000.00</a></h5>
+                                    <p>Waterfront Contemporary Home, Long Island</p>
+                                </div>
+                                <a class="fav-btn float-right" href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-product-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/project/9.png" alt="img">
+                            <div class="btn-area">
+                                <a class="btn btn-base btn-sm" href="#">BUY</a>
+                                <a class="btn btn-base btn-sm" href="#">RENT</a>
+                            </div>
+                        </div>
+                        <div class="product-wrap-details">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5><a href="property-details.html">$ 340,000.00</a></h5>
+                                    <p>Suburban Garden Townhouse, Staten Island</p>
+                                </div>
+                                <a class="fav-btn float-right" href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-product-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/project/4.png" alt="img">
+                            <div class="btn-area">
+                                <a class="btn btn-base btn-sm" href="#">BUY</a>
+                                <a class="btn btn-base btn-sm" href="#">RENT</a>
+                            </div>
+                        </div>
+                        <div class="product-wrap-details">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5><a href="property-details.html">$ 610,000.00</a></h5>
+                                    <p>Executive Skyline Penthouse, Manhattan</p>
+                                </div>
+                                <a class="fav-btn float-right" href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>          
+                    </div>
+                </div>  
+                <div class="col-12">
+                    <div class="btn-wrap text-center mt-4">
+                        <a class="btn btn-base" href="property.html">LOAD MORE</a>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </div>
+    <!-- product area end -->
+    <!-- call-to-action area start -->
+    <div class="cta-area bg-overlay pd-top-118 pd-bottom-120 text-center" style="background: url(assets/img/other/1.png);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-10">
+                    <div class="section-title style-white mb-0">
+                        <h6>Buy Or Sell</h6>
+                        <h2>List or Find Your Dream Property</h2>
+                        <p>Ready to sell your property for top market value or looking to invest in your next home? Connect with our trusted real estate specialists today for a seamless, transparent, and rewarding experience from start to finish.</p>
+                    </div>
+                    <div class="btn-wrap mt-4 pt-3">
+                        <a class="btn btn-base mr-2" href="add-property.html">SUBMIT PROPERTY</a>
+                        <a class="btn btn-base ml-2" href="property-details.html">EXPLORE HOMES</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- call-to-action area end -->
+
+    <!-- Properties area start -->
+    <div class="propartes-area pd-top-118 pd-bottom-90">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6>Meet Our Properties</h6>
+                <h2>Our Featured Properties</h2>
+            </div>
+            <div class="mgd-tab-inner style-2 text-center"> 
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="rent1-tab" data-toggle="tab" href="#rent1" role="tab" aria-controls="rent1" aria-selected="true">Rentals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="sell1-tab" data-toggle="tab" href="#sell1" role="tab" aria-controls="sell1" aria-selected="false">Sales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="sell2-tab" data-toggle="tab" href="#sell2" role="tab" aria-controls="sell2" aria-selected="false">Apartment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="sell3-tab" data-toggle="tab" href="#sell3" role="tab" aria-controls="sell3" aria-selected="false">Villa</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="rent1" role="tabpanel" aria-labelledby="rent1-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/2.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 3,200 /mo</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Manhattan Luxury Suite</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Manhattan, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>2 <span>Bedroom</span></span>
+                                    <span class="border-none">2 <span>Bathroom</span></span>
+                                    <span>950 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/8.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 4,500 /mo</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Brooklyn Modern Loft</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Brooklyn, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>3 <span>Bedroom</span></span>
+                                    <span class="border-none">2 <span>Bathroom</span></span>
+                                    <span>1,200 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/5.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 2,800 /mo</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Queens Cozy Apartment</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Queens, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>1 <span>Bedroom</span></span>
+                                    <span class="border-none">1 <span>Bathroom</span></span>
+                                    <span>750 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/3.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 5,800 /mo</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Waterfront Executive Penthouse</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Long Island, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>3 <span>Bedroom</span></span>
+                                    <span class="border-none">3 <span>Bathroom</span></span>
+                                    <span>1,650 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/3.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 3,900 /mo</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Staten Island Family Home</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Staten Island, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>4 <span>Bedroom</span></span>
+                                    <span class="border-none">3 <span>Bathroom</span></span>
+                                    <span>2,100 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/1.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 2,500 /mo</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">City Center Studio</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Manhattan, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>1 <span>Bedroom</span></span>
+                                    <span class="border-none">1 <span>Bathroom</span></span>
+                                    <span>600 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sell1" role="tabpanel" aria-labelledby="sell1-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/3.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 450,000.00</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Suburban Villa Estate</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Westchester, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>4 <span>Bedroom</span></span>
+                                    <span class="border-none">3 <span>Bathroom</span></span>
+                                    <span>2,400 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/1.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 320,000.00</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Downtown Luxury Condo</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Manhattan, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>2 <span>Bedroom</span></span>
+                                    <span class="border-none">2 <span>Bathroom</span></span>
+                                    <span>1,100 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/5.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 290,000.00</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Classic Family Residence</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Queens, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>3 <span>Bedroom</span></span>
+                                    <span class="border-none">2 <span>Bathroom</span></span>
+                                    <span>1,450 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/3.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 510,000.00</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Modern Skyline Residence</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Brooklyn, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>3 <span>Bedroom</span></span>
+                                    <span class="border-none">2 <span>Bathroom</span></span>
+                                    <span>1,550 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/2.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 380,000.00</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Garden Townhouse</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Staten Island, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>3 <span>Bedroom</span></span>
+                                    <span class="border-none">2 <span>Bathroom</span></span>
+                                    <span>1,300 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/8.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 650,000.00</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Luxury Waterfront Villa</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Long Island, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>5 <span>Bedroom</span></span>
+                                    <span class="border-none">4 <span>Bathroom</span></span>
+                                    <span>3,200 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sell2" role="tabpanel" aria-labelledby="sell2-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/3.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 275,000.00</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Urban Studio Apartment</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Manhattan, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>1 <span>Bedroom</span></span>
+                                    <span class="border-none">1 <span>Bathroom</span></span>
+                                    <span>650 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sell3" role="tabpanel" aria-labelledby="sell3-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product-wrap style-3">
+                                <div class="thumb">
+                                    <img src="assets/img/project/2.png" alt="img">
+                                </div> 
+                                <div class="product-details-inner">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>$ 750,000.00</h4>
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <ul class="meta-inner">
+                                                <li><a href="#">BUY</a></li>
+                                                <li><a href="#">RENT</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p><a href="property-details.html">Grand Royal Villa</a></p>
+                                        </div>
+                                        <div class="col-2 align-self-center">
+                                            <a href="#" class="wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="meta-inner">
+                                        <li><img src="assets/img/icon/location2.png" alt="img">Long Island, New York</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="product-meta-bottom style-2">
+                                    <span>5 <span>Bedroom</span></span>
+                                    <span class="border-none">5 <span>Bathroom</span></span>
+                                    <span>3,800 <span>sqft</span></span>
+                                </div>          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Properties area end -->
+
+    <!-- testimonial area start -->
+    <div class="testimonial-area pd-top-118 pd-bottom-120 bg-overlay" style="background: url(assets/img/bg/2.png);">
+        <div class="bg-overlay-wrap">
+            <div class="container">
+                <div class="section-title style-white text-center">
+                    <h6>Client Testimonials</h6>
+                    <h2>What Our Clients Say</h2>
+                    <p>Hear directly from homeowners, buyers, and investors who trusted us with their real estate journey.</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="testimonial-slider-1 owl-carousel">
+                            <div class="item">
+                                <div class="single-testimonial-inner pl-lg-5 pr-lg-5 text-center">
+                                    <div class="thumb">
+                                        <img src="assets/img/testimonial/quote.png" alt="img">
+                                    </div>
+                                    <div class="details">
+                                        <p>“Working with this team made buying our first family home in Brooklyn completely stress-free. They listened carefully to our budget and neighborhood preferences, handled every negotiation with professionalism, and got us closed right on schedule.”</p>
+                                        <h6 class="name">Michael Thompson</h6>
+                                        <span class="designation">Homeowner, Brooklyn</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="single-testimonial-inner pl-lg-5 pr-lg-5 text-center">
+                                    <div class="thumb">
+                                        <img src="assets/img/testimonial/quote.png" alt="img">
+                                    </div>
+                                    <div class="details">
+                                        <p>“Their deep knowledge of the Manhattan property market helped me secure a high-yield investment condo at a great price. From property tours to final paperwork, their transparency and responsiveness exceeded all my expectations.”</p>
+                                        <h6 class="name">Sarah Jenkins</h6>
+                                        <span class="designation">Real Estate Investor</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial area end -->
+    <!-- Categories area start -->
+    <div class="categores-area bg-gray pd-top-118 pd-bottom-90">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6>We are offering the best real estate</h6>
+                <h2>Popular Categories</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-category-product-wrap style-two">
+                        <div class="thumb">
+                            <img src="assets/img/product/cat-1.png" alt="img">
+                        </div>
+                        <div class="single-category-product-details">
+                            <h4><a href="property-details.html">Luxury Apartments</a></h4>
+                            <a class="btn btn-base" href="#">12 Properties</a>
+                            <a class="read-more float-right" href="#"><i class="la la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-category-product-wrap style-two">
+                        <div class="thumb">
+                            <img src="assets/img/product/cat-2.png" alt="img">
+                        </div>
+                        <div class="single-category-product-details">
+                            <h4><a href="property-details.html">Modern Villas</a></h4>
+                            <a class="btn btn-base" href="#">8 Properties</a>
+                            <a class="read-more float-right" href="#"><i class="la la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-category-product-wrap style-two">
+                        <div class="thumb">
+                            <img src="assets/img/product/cat-3.png" alt="img">
+                        </div>
+                        <div class="single-category-product-details">
+                            <h4><a href="property-details.html">Waterfront Estates</a></h4>
+                            <a class="btn btn-base" href="#">5 Properties</a>
+                            <a class="read-more float-right" href="#"><i class="la la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-category-product-wrap style-two">
+                        <div class="thumb">
+                            <img src="assets/img/product/cat-5.png" alt="img">
+                        </div>
+                        <div class="single-category-product-details">
+                            <h4><a href="property-details.html">Family Houses</a></h4>
+                            <a class="btn btn-base" href="#">15 Properties</a>
+                            <a class="read-more float-right" href="#"><i class="la la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-category-product-wrap style-two">
+                        <div class="thumb">
+                            <img src="assets/img/product/cat-3.png" alt="img">
+                        </div>
+                        <div class="single-category-product-details">
+                            <h4><a href="property-details.html">Commercial Spaces</a></h4>
+                            <a class="btn btn-base" href="#">4 Properties</a>
+                            <a class="read-more float-right" href="#"><i class="la la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-category-product-wrap style-two">
+                        <div class="thumb">
+                            <img src="assets/img/product/cat-5.png" alt="img">
+                        </div>
+                        <div class="single-category-product-details">
+                            <h4><a href="property-details.html">Penthouse Suites</a></h4>
+                            <a class="btn btn-base" href="#">7 Properties</a>
+                            <a class="read-more float-right" href="#"><i class="la la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- Categories area end -->
+
+   <!-- agent area start -->
+    <div class="agent-area bg-black pd-top-118 pd-bottom-90">
+        <div class="container">
+            <div class="section-title style-white text-center">
+                <h6>Meet Our Team</h6>
+                <h2>Our Expert Agents</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-agent-wrap style-2 text-center">
+                        <div class="thumb">
+                            <img src="assets/img/agent/7.png" alt="img">
+                        </div> 
+                        <div class="details">
+                            <h4>Victoria R</h4>
+                            <h6>Senior Property Consultant</h6>
+                            <ul class="social-area style-2">
+                                <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-agent-wrap style-2 text-center">
+                        <div class="thumb">
+                            <img src="assets/img/agent/8.png" alt="img">
+                        </div> 
+                        <div class="details">
+                            <h4>David Harrison</h4>
+                            <h6>Luxury Real Estate Specialist</h6>
+                            <ul class="social-area style-2">
+                                <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-agent-wrap style-2 text-center">
+                        <div class="thumb">
+                            <img src="assets/img/agent/9.png" alt="img">
+                        </div> 
+                        <div class="details">
+                            <h4>Jordan Smith</h4>
+                            <h6>Commercial Property Advisor</h6>
+                            <ul class="social-area style-2">
+                                <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-agent-wrap style-2 text-center">
+                        <div class="thumb">
+                            <img src="assets/img/agent/10.png" alt="img">
+                        </div> 
+                        <div class="details">
+                            <h4>Emily Watson</h4>
+                            <h6>Residential Sales Manager</h6>
+                            <ul class="social-area style-2">
+                                <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- agent area end -->
+
+    <!-- Featured area start --> 
+    <div class="featured-area pd-top-118 pd-bottom-90">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6>Our Exclusives</h6>
+                <h2>Featured Properties</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="single-product-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/project/13.png" alt="img">
+                            <div class="btn-area">
+                                <a class="btn btn-base btn-sm" href="#">BUY</a>
+                                <a class="btn btn-base btn-sm" href="#">RENT</a>
+                            </div>
+                        </div> 
+                        <div class="product-wrap-details">
+                            <div class="product-details-inner p-0">
+                                <h4>$ 540,000.00</h4>
+                                <div class="row">
+                                    <div class="col-10">
+                                        <ul class="meta-inner mb-0">
+                                            <li><img src="assets/img/icon/location2.png" alt="img">Upper East Side, Manhattan</li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2 align-self-center">
+                                        <a href="#" class="wishlist">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-meta-bottom style-2 pl-0 pr-0">
+                                <span>3 <span>Bedroom</span></span>
+                                <span class="border-none">2 <span>Bathroom</span></span>
+                                <span>1,480 <span>sqft</span></span>
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="single-product-wrap">
+                        <div class="thumb">
+                            <img src="assets/img/project/14.png" alt="img">
+                            <div class="btn-area">
+                                <a class="btn btn-base btn-sm" href="#">BUY</a>
+                                <a class="btn btn-base btn-sm" href="#">RENT</a>
+                            </div>
+                        </div> 
+                        <div class="product-wrap-details">
+                            <div class="product-details-inner p-0">
+                                <h4>$ 685,000.00</h4>
+                                <div class="row">
+                                    <div class="col-10">
+                                        <ul class="meta-inner mb-0">
+                                            <li><img src="assets/img/icon/location2.png" alt="img">Brooklyn Heights, New York</li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2 align-self-center">
+                                        <a href="#" class="wishlist">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-meta-bottom style-2 pl-0 pr-0">
+                                <span>4 <span>Bedroom</span></span>
+                                <span class="border-none">3 <span>Bathroom</span></span>
+                                <span>1,920 <span>sqft</span></span>
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured area end -->
+
+    <!-- blog area start -->
+    <div class="blog-area bg-gray pd-top-118 pd-bottom-90">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6>Blog & News</h6>
+                <h2>Latest News & Articles</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-product-wrap style-bottom-radius">
+                        <div class="thumb">
+                            <img src="assets/img/project/10.png" alt="img">
+                        </div> 
+                        <div class="product-details-inner">
+                            <ul class="meta-inner">
+                                <li><i class="fa fa-user"></i>By Victoria Reynolds</li>
+                                <li><i class="fa fa-calendar-alt"></i>October 14, 2026</li>
+                            </ul>
+                            <h4><a href="blog-details.html">Top 5 Tips for First-Time Homebuyers in New York</a></h4>
+                            <p>Navigating the competitive housing market takes careful preparation. Discover practical steps to secure pre-approval and find the right neighborhood.</p>
+                            <a class="btn btn-base read-more" href="#"><i class="la la-arrow-right"></i></a>
+                        </div>        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-product-wrap style-bottom-radius">
+                        <div class="thumb">
+                            <img src="assets/img/project/11.png" alt="img">
+                        </div> 
+                        <div class="product-details-inner">
+                            <ul class="meta-inner">
+                                <li><i class="fa fa-user"></i>By David Harrison</li>
+                                <li><i class="fa fa-calendar-alt"></i>October 28, 2026</li>
+                            </ul>
+                            <h4><a href="blog-details.html">How Smart Home Upgrades Increase Property Value</a></h4>
+                            <p>Modern buyers actively look for energy-efficient systems and automated security. Learn which renovations deliver the highest return on investment.</p>
+                            <a class="btn btn-base read-more" href="#"><i class="la la-arrow-right"></i></a>
+                        </div>        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-product-wrap style-bottom-radius">
+                        <div class="thumb">
+                            <img src="assets/img/project/12.png" alt="img">
+                        </div> 
+                        <div class="product-details-inner">
+                            <ul class="meta-inner">
+                                <li><i class="fa fa-user"></i>By Emily Watson</li>
+                                <li><i class="fa fa-calendar-alt"></i>November 09, 2026</li>
+                            </ul>
+                            <h4><a href="blog-details.html">2026 Real Estate Market Outlook: Rental vs. Buying</a></h4>
+                            <p>With shifting interest rates and growing urban demand, explore whether leasing or purchasing a residential property makes the most financial sense this year.</p>
+                            <a class="btn btn-base read-more" href="#"><i class="la la-arrow-right"></i></a>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog area end -->
+    <!-- footer area start -->
+    <footer class="footer-area">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
+                    </div>
+                    <div class="col-md-8 text-md-right mt-3 mt-md-0">
+                        <ul class="social-area">
+                            <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-skype" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-middle bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="widget widget_about">
+                            <h4 class="widget-title">Company</h4>
+                            <div class="details">
+                                <p>Mahmud-IT Real Estate is your trusted partner in finding premium properties, luxury apartments, and ideal family homes with complete transparency and secure deals.</p>
+                                <p><i class="fas fa-map-marker-alt"></i> Available upon request (Via Fiverr</p>
+                                <p><i class="fas fa-phone-volume"></i> +Available upon request (Via Fiverr</p>
+                                <p><i class="fas fa-envelope"></i> Available upon request (Via Fiverr</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="widget widget_newsfeed">
+                            <h4 class="widget-title">News Feed</h4>
+                            <ul>
+                                <li><a href="#"><i class="far fa-user"></i>By Admin</a><span><i class="far fa-calendar-alt"></i>Marce 9 , 2026</span></li>
+                                <li><a href="#"><i class="far fa-user"></i>By Author</a><span><i class="far fa-calendar-alt"></i>Marce 9 , 2026</span></li>
+                                <li><a href="#"><i class="far fa-user"></i>By Admin</a><span><i class="far fa-calendar-alt"></i>Marce 9 , 2026</span></li>
+                                <li><a href="#"><i class="far fa-user"></i>By Admin</a><span><i class="far fa-calendar-alt"></i>Marce 9 , 2026</span></li>
+                                <li><a href="#"><i class="far fa-user"></i>By Admin</a><span><i class="far fa-calendar-alt"></i>Marce 9 , 2026</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-9">
+                        <div class="widget widget_subscribe mb-4">
+                            <h4 class="widget-title">Newslatter</h4>
+                            <div class="details">
+                                <p>Stunning modern property featuring luxury finishes and prime location.,</p>
+                                <div class="footer-subscribe-inner">
+                                    <input type="text" placeholder="Your Mail">
+                                    <a class="btn btn-base" href="#">Subscribe</a>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="widget widget-tags pt-2">
+                            <h5 class="widget-title mb-3">House Tags</h5>
+                            <div class="tagcloud mt-0">
+                                <a href="#">Creative</a>
+                                <a href="#">Development</a>
+                                <a href="#">Beach</a>
+                                <a href="#">Villa</a>
+                                <a href="#">Clean</a>
+                                <a href="#">Seo</a>
+                                <a href="#">Appertment</a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 align-self-center">
+                        <p>Copyright © 2026 Mahmud-IT. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-5 text-md-right">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+    <!-- all plugins here -->
+    <script src="assets/js/vendor.js"></script>
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
